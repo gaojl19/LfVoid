@@ -85,7 +85,7 @@ Here is a list of the parameters that can be passed into the script:
 - --experiment_name: The name of this experiment, which will be used to construct the output image path
 - --device: The device to run the script on, for example, "cpu", "cuda:0".
 
-The following parameters share the same meaning as the original [Prompt-to-prompt](https://github.com/google/prompt-to-prompt)  codebase.
+The following parameters share the same meaning as the original [Prompt-to-prompt](https://github.com/google/prompt-to-prompt) codebase.
 - --amplify_word: Choose a word from the target text prompt that needs to be emphasized
 - --amplify_weight: The weight to emphasize the word
 - --self_replace_step: The percentage to perform self-attention map replacement. Range from 0 to 1.0
@@ -133,7 +133,7 @@ Here is a list of the parameters that can be passed into the script:
 - --prompt: The text prompt describing the scene
 - --image_path: The path to the input image that needs to be edited
 - --experiment_name: The name of this experiment, which will be used to construct the output image path
-- --region: The bounding-box that describes the region which the desired object should appear in. For example, "0.5 0.7 0.7 0.9" suggest a bounding-box at $x_{start}=0.5*width, x_{end}=0.7*width, y_{start}=0.7*height, y_{end}=0.9*height$
+- --region: The bounding-box that describes the region which the desired object should appear in. For example, "0.5 0.7 0.7 0.9" suggest a bounding-box at x_start=0.5*width, x_end=0.7*width, y_start=0.7*height, y_end=0.9*height$
 - --prompt_indice: The idx of the words in the prompt that specifies the object to be moved
 - --num_trailing_maps: The number of extra trailing tokens to add
 - --editing_steps: The number of editing steps (integer)
